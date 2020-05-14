@@ -1,2 +1,2 @@
-# imersao-css
+# imerção-css
 criando coisas com o css

@@ -1,11 +1,12 @@
 body {
-    background-image: url('file:///C:/Users/Usuario/Documents/GitHub/imersao-css/fundo-gradiente-suave_77528-21.jpg');
+    background-image: url('file:///C:/Users/Usuario/Documents/GitHub/imersao-css/css/fundo-gradiente-suave_77528-21.jpg');
     background-size: auto 100vh;
     font-family: monospace;
     height: 100vh;
 }
 
 a {
+    color: navajowhite;
     text-decoration: none;
 }
 

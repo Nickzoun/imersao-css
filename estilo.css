@@ -1,12 +1,16 @@
 body {
     background-image: url('file:///C:/Users/Usuario/Documents/GitHub/imersao-css/fundo-gradiente-suave_77528-21.jpg');
     font-family: monospace;
-};
+}
 
 a {
     text-decoration: none;
-};
+}
 
 a:hover {
     text-decoration: underline;
-};
+}
+
+.menu li {
+    list-style: none;
+}

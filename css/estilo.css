@@ -1,5 +1,12 @@
+/* reset do css*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-image: url('https://raw.githubusercontent.com/Nickzoun/imersao-css/master/css/fundo-gradiente-suave_77528-21.jpg');
+    background-image: url('../css/fundo.jpg');
     background-size: auto 100vh;
     font-family: monospace;
     height: 100vh;
@@ -31,4 +38,9 @@ a:hover {
 
 .site-subtitle {
     font-style: italic;
+}
+
+.img-portfolio {
+    height: 300px;
+    width: 300px;
 }

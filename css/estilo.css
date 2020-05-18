@@ -10,15 +10,29 @@ body {
     background-size: auto 100vh;
     font-family: monospace;
     height: 100vh;
+    width: auto;
+}
+
+header {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
 
 a {
-    color: navajowhite;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+.menu {
+    background-color: navy;
+    position: fixed;
+    width: 100vw;
+    top: 0px;
 }
 
 .menu ul {
@@ -28,6 +42,13 @@ a:hover {
 
 .menu li {
     list-style: none;
+}
+
+.menu a {
+    color: navajowhite;
+    background-color: orangered;
+    display: block;
+    padding: 0px 20px;
 }
 
 .site-subtitle,

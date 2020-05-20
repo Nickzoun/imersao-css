@@ -21,6 +21,11 @@ header {
     align-items: center;
 }
 
+section {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+}
+
 /*se a tela tiver pelo menos 400px vai carregar isso*/
 @media (min-width: 400px) {
     body {
@@ -30,16 +35,25 @@ header {
     header {
         height: 100vh;
     }
+
+    section {
+        font-size: 12px;
+    }
 }
 
 @media (min-width: 600px) {
     body {
-        font-size: 18px;
+        font-size: 22px;
+    }
+
+    section {
+        font-size: 16px;
     }
 }
 
 a {
     text-decoration: none;
+    font-size: 16px;
 }
 
 a:hover {
@@ -75,8 +89,13 @@ a:hover {
     font-style: italic;
 }
 
+.site-title {
+    font-family: 'Indie Flower', cursive;
+}
+
 .site-subtitle {
     font-style: italic;
+    font-family: 'VT323', monospace;
 }
 
 .img-portfolio {

@@ -73,7 +73,8 @@ button:hover {
 
 .site-subtitle {
     font-style: italic;
-    font-family: 'VT323', monospace;
+    font-family: 'Sacramento', cursive;
+    font-size: 1.7em;
 }
 
 .portfolio {
@@ -89,6 +90,7 @@ button:hover {
 .portfolio h2 {
     color: gold;
     margin-bottom: 1em;
+    text-align: center;
 }
 
 .portfolio figure {

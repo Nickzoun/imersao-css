@@ -77,9 +77,10 @@ button:hover {
     font-size: 1.7em;
 }
 
+.contato,
 .portfolio {
     padding: 0.8em;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .portfolio .grid {
@@ -87,6 +88,7 @@ button:hover {
     gap: 1.6em;
 }
 
+.contato h2,
 .portfolio h2 {
     color: gold;
     margin-bottom: 1em;
